@@ -1,4 +1,4 @@
-# NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors
+# NLP_NaiveBayes_LogisticRegression_kNearestNeighbors
 Natural Language Processing (NLP) spam/ham email classification via full custom Beta-Binomial Naive Bayes, Gaussian Naive Bayes, Logistic Regression &amp; k-Nearest Neighbors implementation.
 
 __For usage instrution please check [Usage README](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/README.txt)__
