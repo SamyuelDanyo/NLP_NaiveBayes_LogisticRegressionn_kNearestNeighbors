@@ -40,4 +40,4 @@ Make sure you Python is installed on your command line.
 	// HOW TO THE RUN CODE
 	//////////////////////////////////////////////////
 	1. Navigate to root/src
-	2. < python -W ignore aiveBayes_LogisticRegression_kNearestNeighbors.py >
+	2. < python -W Nignore aiveBayes_LogisticRegression_kNearestNeighbors.py >
