@@ -1,9 +1,9 @@
 # NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors
 Natural Language Processing (NLP) spam/ham email classification via full custom Beta-Binomial Naive Bayes, Gaussian Naive Bayes, Logistic Regression &amp; k-Nearest Neighbors implementation.
 
-__For usage instrution please check < docs/README > :: [Usage README](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/README.txt)__
+__For usage instrution please check [Usage README](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/README.txt)__
 
-__For full documentation - system design, experiemnts & findings please read < docs/NaiveBayes_LogisticRegression_kNearestNeighborsDoc.pdf > :: [NaiveBayes_LogisticRegression_kNearestNeighborsDoc Report](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/NaiveBayes_LogisticRegression_kNearestNeighborsDoc.pdf)__
+__For full documentation - system design, experiemnts & findings please read [NaiveBayes_LogisticRegression_kNearestNeighborsDoc Report](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/NaiveBayes_LogisticRegression_kNearestNeighborsDoc.pdf)__
 
 ## Introduction
 In this report I present my implementations of four pattern recognition methods: Beta-Binomial Naive Bayes, Gaussian Naive Bayes, Logistic Regression with Newton’s Method and L2 regularization learning, K-Nearest Neighbors with cross-validation, as well as, the results and analysis of the SPAM E-mail Dataset, classified with each of the above-mentioned algorithms. 
@@ -25,46 +25,35 @@ For each method graphs of {train/test} {error rate, accuracy, false negatives er
 The classifier is designed to be configurable to either use the Maximum Likelihood (ML) Estimation or to assume a prior Beta(a, a) (Posterior Predictive (PP)) for each – the class priors probability and the class-conditional probabilities. Depending on its configuration, the classifier can use a pure ML, a Bayesian PP or a mixture for training and prediction.
 
 ![Beta-Binomial Naive Bayes Train Errors](/res/BNV_error.png)
-Format: ![Alt Text](url)
 
 ![Beta-Binomial Naive Bayes Confusion Table](/res/BNV_confusion.png)
-Format: ![Alt Text](url)
 
 ![Beta-Binomial Naive Bayes Performance](/res/BNV_perf.png)
-Format: ![Alt Text](url)
 
 ## Gaussian Naive Bayes Classifier
 ### Design
 For training the classifier uses the Maximum Likelihood (ML) Estimation for the class-priors and the class-conditional mean and variance for each feature. The prediction is made by utilizing MLE as a plug-in estimator.
 
 ![Gaussian Naive Bayes Performance](/res/GNV_perf.png)
-Format: ![Alt Text](url)
 
 ## Logistic Regression
 ### Design
 The Logistic Regression classifier is built as an artificial neuron from three layers: linear – containing the model parameters, which after a forward step yield the log-odds prediction; logistic – the sigmoid function which squashes the log-odds into [0:1] interval and yields the posterior probabilities; step – the step function with a threshold of 0.5, which translates the logistic decision boundary at 0.5 to binary predictions. The neuron learns though the Newton’s Method by doing a second order derivative cost estimation using both – the Hessian and the Gradient. The learning also utilizes a L2 regularization.
 
 ![Logistic Regression Accuracy](/res/LR_accuracy_grph.png)
-Format: ![Alt Text](url)
 
 ![Logistic Regression Error](/res/LR_confusion.png)
-Format: ![Alt Text](url)
 
 ![Logistic Regression Confusion Table](/res/LR_val_error.png)
-Format: ![Alt Text](url)
 
 ![Logistic Regression Performance](/res/LR_perf.png)
-Format: ![Alt Text](url)
 
 ## K-Nearest Neighbors
 ### Design
 The classifier measures the “nearness” between train and test samples via the Euclidean distance. The optimal K is chosen via a five-fold cross-validation.
 
 ![k-Nearest Neighbors Accuracy](/res/kNN_acccuracy_kgraph.png)
-Format: ![Alt Text](url)
 
 ![k-Nearest Neighbors Error](/res/kNN_test_error.png)
-Format: ![Alt Text](url)
 
 ![k-Nearest Neighbors Performance](/res/kNN_perf.png)
-Format: ![Alt Text](url)
