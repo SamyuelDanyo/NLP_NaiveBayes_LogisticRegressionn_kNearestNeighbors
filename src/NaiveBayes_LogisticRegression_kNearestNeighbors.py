@@ -6,6 +6,12 @@
 #   ## Gaussian Naive Bayes Classifier Full Implementation
 #   ## Logistic Regression(BP + Newton's Method Update) Full Implementation
 #   ## K-Nearest Neighbours Classifier Full Implementation
+###########################################################################
+#  Author: Samyuel Danyo
+#  Date: 02/2019
+#  License: MIT License
+#  Copyright (c) 2020 Samyuel Danyo
+###########################################################################
 
 # Python imports
 import numpy as np # Matrix and vector computation package
