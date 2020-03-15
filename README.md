@@ -1,9 +1,11 @@
 # NLP_NaiveBayes_LogisticRegression_kNearestNeighbors
 Natural Language Processing (NLP) spam/ham email classification via full custom Beta-Binomial Naive Bayes, Gaussian Naive Bayes, Logistic Regression &amp; k-Nearest Neighbors implementation.
 
-__For usage instrution please check [Usage README](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/README.txt)__
+__For usage instructions please check [Usage README](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/README.txt)__
 
-__For full documentation - system design, experiemnts & findings please read [NaiveBayes_LogisticRegression_kNearestNeighborsDoc Report](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/NaiveBayes_LogisticRegression_kNearestNeighborsDoc.pdf)__
+__For full documentation - system design, experiments & findings please read [NaiveBayes_LogisticRegression_kNearestNeighborsDoc Report](https://github.com/SamyuelDanyo/NLP_NaiveBayes_LogisticRegressionn_kNearestNeighbors/blob/master/docs/NaiveBayes_LogisticRegression_kNearestNeighborsDoc.pdf)__
+
+__[GutHub Pages Format](https://samyueldanyo.github.io/nlp-naive-bayes-logistic-regression-k-nearest-neighbors/)__
 
 ## Introduction
 In this report I present my implementations of four pattern recognition methods: Beta-Binomial Naive Bayes, Gaussian Naive Bayes, Logistic Regression with Newton’s Method and L2 regularization learning, K-Nearest Neighbors with cross-validation, as well as, the results and analysis of the SPAM E-mail Dataset, classified with each of the above-mentioned algorithms. 
